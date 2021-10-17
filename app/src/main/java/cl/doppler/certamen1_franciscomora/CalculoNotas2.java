@@ -33,7 +33,7 @@ public class CalculoNotas2 extends AppCompatActivity {
         Bundle intentN=this.getIntent().getExtras();
         if (intentN!=null){
             Nombre=intentN.getString("nombre");
-            Toast.makeText(context,"Estudiante: " +Nombre,Toast.LENGTH_SHORT).show();
+            
 
         }
 
