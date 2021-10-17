@@ -15,7 +15,7 @@ public class CalculoNotas2 extends AppCompatActivity {
     private Button botoNN;
     private String Nombre;
     private TextView tvNombre;
-    private int Notas;
+
 
 
     @Override
