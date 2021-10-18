@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 intent1.putExtra("nombre", etNombre.getText().toString());
-
                 startActivity(intent1);
             }
         });
