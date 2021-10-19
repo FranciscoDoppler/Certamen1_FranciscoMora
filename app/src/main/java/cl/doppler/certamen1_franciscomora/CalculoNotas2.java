@@ -33,8 +33,6 @@ public class CalculoNotas2 extends AppCompatActivity {
         Bundle intentN=this.getIntent().getExtras();
         if (intentN!=null){
             Nombre=intentN.getString("nombre");
-            
-
         }
 
         tvNombre.setText("Estudiante : " +System.lineSeparator()+System.lineSeparator() +Nombre);
