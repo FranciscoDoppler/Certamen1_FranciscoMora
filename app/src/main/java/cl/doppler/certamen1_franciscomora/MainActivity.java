@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     private Button botoN;
     private EditText etNombre;
-    private String asd;
     private EditText  nota1, nota2, nota3;
 
     @Override
