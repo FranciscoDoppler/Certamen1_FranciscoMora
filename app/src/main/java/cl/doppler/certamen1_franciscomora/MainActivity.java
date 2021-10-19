@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
         nota2=(EditText) findViewById(R.id.ETNota2);
         nota3=(EditText) findViewById(R.id.ETNota3);
 
-        nota1= Integer.parseInt(nota1.getText().toString());
+
 
         etNombre=(EditText) findViewById(R.id.ETNombre);
 
         botoN =(Button) findViewById(R.id.BotonSIG);
         Intent intent1=new Intent(this,CalculoNotas2.class);
-        Intent intent2=new Intent()
+
 
         botoN.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
                 intent1.putExtra("nombre", etNombre.getText().toString());
 
-                Integer.parseInt(nota1
+
                 startActivity(intent1);
             }
         });
