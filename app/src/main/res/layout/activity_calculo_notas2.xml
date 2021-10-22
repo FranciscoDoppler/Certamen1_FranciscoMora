@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/olaa"
+    android:background="@drawable/BGAndroind"
     tools:context=".CalculoNotas2">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginTop="32dp"
         android:text="Calcúlo de Infromación de Notas"
         android:textAlignment="center"
-        android:textColor="#111111"
+        android:textColor="#2196F3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
@@ -57,7 +57,7 @@
         android:layout_marginTop="80dp"
         android:text="Estudiante: "
         android:textAlignment="center"
-        android:textColor="#111111"
+        android:textColor="#2196F3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
@@ -71,7 +71,7 @@
         android:layout_marginTop="72dp"
         android:text="Promedio:"
         android:textAlignment="center"
-        android:textColor="#111111"
+        android:textColor="#2196F3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
@@ -95,6 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textColor="#2196F3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

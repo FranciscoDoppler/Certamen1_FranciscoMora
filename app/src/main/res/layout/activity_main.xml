@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/olaa"
+    android:background="@drawable/BGAndroind"
     tools:context=".MainActivity">
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_marginTop="36dp"
         android:text="Nombre Alumno"
         android:textAlignment="center"
-        android:textColor="#030303"
+        android:textColor="#2196F3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -43,7 +43,7 @@
         android:layout_marginTop="36dp"
         android:text="Carrera"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#2196F3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -59,7 +59,7 @@
         android:layout_marginTop="32dp"
         android:text="Notas"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#2196F3"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -85,7 +85,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="#000000"
+        android:textColor="#2196F3"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -97,7 +97,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="#000000"
+        android:textColor="#2196F3"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -138,7 +138,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:textColor="#000000"
+        android:textColor="#2196F3"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -149,7 +149,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:textColor="#000000"
+        android:textColor="#2196F3"
         app:layout_constraintEnd_toStartOf="@+id/ETNota3"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toEndOf="@+id/ETNota1"
@@ -163,7 +163,7 @@
         android:layout_marginEnd="20dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:textColor="#000000"
+        android:textColor="#2196F3"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
