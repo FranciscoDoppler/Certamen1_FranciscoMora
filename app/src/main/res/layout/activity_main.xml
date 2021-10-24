@@ -134,10 +134,10 @@
         android:id="@+id/ETNota1"
         android:layout_width="72dp"
         android:layout_height="42dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         android:textColor="#2196F3"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -146,12 +146,11 @@
         android:id="@+id/ETNota2"
         android:layout_width="72dp"
         android:layout_height="42dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         android:textColor="#2196F3"
-        app:layout_constraintEnd_toStartOf="@+id/ETNota3"
-        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toEndOf="@+id/ETNota1"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -159,12 +158,14 @@
         android:id="@+id/ETNota3"
         android:layout_width="72dp"
         android:layout_height="42dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         android:textColor="#2196F3"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toEndOf="@+id/ETNota2"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

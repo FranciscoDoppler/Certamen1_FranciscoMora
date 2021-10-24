@@ -13,8 +13,8 @@ import android.widget.Toast;
 public class CalculoNotas2 extends AppCompatActivity {
 
     private Button botoNN;
-    private String Nombre, promedioo;
-    private TextView tvNombre, tvResultado;
+    private String Nombre;
+    private TextView tvNombre, tvResultado, tvResultadoFinal;
 
 
     @Override
@@ -26,6 +26,10 @@ public class CalculoNotas2 extends AppCompatActivity {
 
         tvNombre= (TextView) findViewById(R.id.TVNombre);
         tvResultado= (TextView) findViewById(R.id.TVResult);
+        tvResultadoFinal= (TextView) findViewById(R.id.TVResultadoFinal);
+
+        Intent intent = getIntent();
+        int promedioo = intent.getIntExtra("promedio", 0);
 
         botoNN= (Button) findViewById(R.id.BotonBACK);
         Intent intent2= new Intent(this,MainActivity.class);
@@ -36,13 +40,11 @@ public class CalculoNotas2 extends AppCompatActivity {
         if (intentN!=null){
             Nombre=intentN.getString("nombre");
         }
-        Bundle intentNN=this.getIntent().getExtras();
-        if(intentNN!=null){
-            promedioo=intentNN.getString("promedio");
-        }
+
 
         tvNombre.setText("Estudiante : " +System.lineSeparator()+System.lineSeparator() +Nombre);
         tvResultado.setText("Promedio : "+System.lineSeparator()+System.lineSeparator() + promedioo);
+        tvResultadoFinal.setText(Nombre+ " Su promedio final es: " +System.lineSeparator() + promedioo);
 
         botoNN.setOnClickListener(new View.OnClickListener() {
             @Override
